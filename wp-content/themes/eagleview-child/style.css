@@ -1,0 +1,52 @@
+/*
+Theme Name:     eagleview-child
+Description:    Child theme for TheProfessional 
+Author:         Scott Chadwick
+Author URI:     http: //edgemm.com
+Template:       TheProfessional
+Version:        0.1.0
+*/
+
+@import url("../TheProfessional/style.css");
+
+#content span.readmore{float: left; background: url(../TheProfessional/images/readmore.png) no-repeat bottom right; height: 27px; display: block; text-shadow: 1px 1px 1px #ffffff; font-size: 11px; color: #282828; line-height: 27px; padding-right: 13px;}
+
+#content a.more-link {
+	display: block;
+	background: url(../TheProfessional/images/readmore.png) no-repeat;
+	padding:0 0px 0 12px;
+	height:27px;
+	width: 65px;
+	text-decoration: none;
+}
+				#content a.more-link:hover { color: #3e3e3e; }
+
+
+#content span.apply-now{
+	float: left;
+	background: url(../TheProfessional/images/readmore.png) no-repeat bottom right;
+	height: 27px;
+	display: block;
+	text-shadow: 1px 1px 1px #ffffff;
+	font-size: 11px;
+	color: #282828;
+	line-height: 27px;
+	padding-right: 13px;
+	margin-right: -20px;
+}
+
+#content a.apply-link {
+	display: block;
+	background: url(../TheProfessional/images/readmore.png) no-repeat;
+	padding:0 0px 0 12px;
+	height:27px;
+	text-decoration: none;
+	color: #282828;
+}
+				#content a.more-link:hover { color: #3e3e3e; }
+
+#bbb-logo {
+	float: right;
+	position: absolute;
+	right: 15px;
+	}
